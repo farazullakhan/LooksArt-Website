@@ -91,7 +91,7 @@ section{
     top: -30px;
   }
   .primary-menu ul {
-    background-color: #fcf5ee;
+    background-color: #241f1f;
     display: none;
     text-align: center;
     padding: 10px 0;
@@ -109,8 +109,9 @@ section{
 
 /*  ***************************** Banner Section Start *************/
 .banner {
-  background: url(../images/leaf.png) no-repeat left center/12.5%;
+  /* background: url(../images/leaf.png) no-repeat left center/12.5%; */
   padding: 12% 0;
+  text-align: center;
 }
 .banner span {
   color: #ff817e;
@@ -127,7 +128,7 @@ section{
   margin-bottom: 25px;
 }
 .banner p {
-  color: #e1e1e1;
+  color: #ffffff;
   margin-bottom: 50px;
 }
 .banner .spa-img {
@@ -137,9 +138,9 @@ section{
   top: 0;
 }
 .btn {
-  background-color: #ff817e;
+  background-color: #e4c746;
   border-radius: 0;
-  color: #fff;
+  color: black;
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
@@ -322,6 +323,8 @@ section{
 
 /*  ***************************** Procedures Section Start *************/
 .procedures {
+  margin-top: 200px;
+
   position: relative;
 }
 .post {
@@ -656,3 +659,14 @@ section{
   }
 }
 /*  ***************************** Footer Section End *************/
+
+#intro-video{
+  z-index: -1;
+  position: absolute;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  
+}

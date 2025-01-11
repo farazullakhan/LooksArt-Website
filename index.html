@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <title>XXX Salon</title>
+  <title>Looks Art Salon</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
 </head>
@@ -125,14 +125,17 @@
 
   <!--    -------- Banner Section Start ------------- -->
   <section class="banner" id="banner">
-    <div class="spa-img">
+    <!-- <div class="spa-img">
       <img src="images/beauty.png" alt="image">
-    </div>
+    </div> -->
+    <video autoplay loop muted id="intro-video">
+      <source src="./images/videos/Fox - The Luxury Salon - Commercial Video.mp4" type="video/mp4">
+    </video>
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-9">
+        <div class="">
           <div class="banner-content">
-            <span>beauty center</span>
+
             <h2>Beauty and success starts here.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, at recusandae, inventore nobis a
               fugit consectetur et nemo aliquid libero, maiores ut officiis ab ratione? Quo eius amet quas temporibus.
@@ -165,31 +168,24 @@
           <article class="post">
             <img src="images/post/1.jpg" alt="">
             <h4><a href="services.html">Facial Therapy</a></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ad nulla commodi blanditiis sequi modi
-              quisquam ipsam nostrum sapiente ipsa doloremque amet incidunt unde perferendis, eos ducimus qui. Illo,
-              numquam. eos ducimus qui. Illo,
-              numquam.</p>
-            <a href="services.html" class="btn btn-round">read more</a>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <!-- <a href="services.html" class="btn btn-round">read more</a> -->
           </article>
         </div>
         <div class="col-md-4">
           <article class="post">
             <img src="images/post/2.jpg" alt="">
             <h4><a href="services.html">Facial Therapy</a></h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo molestiae accusamus, cumque voluptas et
-              quasi. Reiciendis magnam molestiae nesciunt assumenda vitae veritatis voluptate dolores, amet sunt nostrum
-              ratione suscipit nobis.</p>
-            <a href="services.html" class="btn btn-round">read more</a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+            <!-- <a href="services.html" class="btn btn-round">read more</a> -->
           </article>
         </div>
         <div class="col-md-4">
           <article class="post">
             <img src="images/post/3.jpg" alt="">
             <h4><a href="services.html">Message Therapy</a></h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, impedit, sapiente eum cumque
-              quibusdam, doloremque minima architecto maxime eveniet laborum alias veritatis laudantium laboriosam
-              necessitatibus animi? Soluta consequuntur amet officia?.</p>
-            <a href="services.html" class="btn btn-round">read more</a>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <!-- <a href="services.html" class="btn btn-round">read more</a> -->
           </article>
         </div>
       </div>
@@ -235,29 +231,29 @@
   <!--    -------- Team Section Start ------------- -->
   <section class="team" id="team">
     <div class="container">
-          <div class="sec-heading">
-            <h3 class="sec-title">Book your spot now</h3>
-            <!-- Cal inline embed code begins -->
-            <div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline"></div>
-            <script type="text/javascript">
-              (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-              Cal("init", "reservation", { origin: "https://cal.com" });
+      <div class="sec-heading">
+        <h3 class="sec-title">Book your spot now</h3>
+        <!-- Cal inline embed code begins -->
+        <div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline"></div>
+        <script type="text/javascript">
+          (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+          Cal("init", "reservation", { origin: "https://cal.com" });
 
-              Cal.ns.reservation("inline", {
-                elementOrSelector: "#my-cal-inline",
-                config: { "layout": "month_view" },
-                calLink: "farazulla-khan/reservation",
-              });
+          Cal.ns.reservation("inline", {
+            elementOrSelector: "#my-cal-inline",
+            config: { "layout": "month_view" },
+            calLink: "farazulla-khan/reservation",
+          });
 
-              Cal.ns.reservation("ui", { "hideEventTypeDetails": false, "layout": "month_view" });
-            </script>
-            <!-- Cal inline embed code ends -->
-          </div>
+          Cal.ns.reservation("ui", { "hideEventTypeDetails": false, "layout": "month_view" });
+        </script>
+        <!-- Cal inline embed code ends -->
+      </div>
   </section>
   <!--    -------- Team Section End ------------- -->
 
   <!--    -------- Appointment Section Start ------------- -->
-  <section class="appointment v2" id="appointment">
+  <!-- <section class="appointment v2" id="appointment">
     <div class="appointment-wrap">
       <div class="appointment-form">
         <form accept="#">
@@ -285,7 +281,7 @@
         </form>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--    -------- Appointment Section End ------------- -->
 
   <!--    -------- Footer Section Start ------------- -->
