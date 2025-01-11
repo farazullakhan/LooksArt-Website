@@ -90,6 +90,14 @@ section{
     right: 0;
     top: -30px;
   }
+@media screen and (max-width: 767px) {
+  #intro-video {
+    /* height: 150%; */
+    position: absolute;
+    width: 255%;
+    /* margin-top: 0; */
+  }
+}
   .primary-menu ul {
     background-color: #241f1f;
     display: none;
