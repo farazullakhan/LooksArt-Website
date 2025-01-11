@@ -9,7 +9,7 @@
 }
 body {
   color: #ffffff;
-  background-color: #241f1f;
+  background-color: #171717;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -598,7 +598,7 @@ section{
 
 /*  ***************************** Footer Section Start *************/
 .footer {
-  background-color: #241f1f;
+  background-color: #171717;
   padding: 80px 0 60px;
 }
 .footer .foo-logo {
