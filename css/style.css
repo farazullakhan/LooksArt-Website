@@ -347,6 +347,8 @@ section{
 }
 .post img {
   margin-bottom: 35px;
+  width: 100%;
+  height: 200px;
 }
 .post h4 {
   margin-bottom: 22px;
@@ -359,7 +361,7 @@ section{
   margin-bottom: 39px;
 }
 .post .btn {
-  background-color: #30383b;
+  background-color: #e4c746;
   margin-bottom: 30px;
   padding: 15px;
 }
@@ -368,8 +370,8 @@ section{
   box-shadow: 0 5px 20px #f0f0f0;
 }
 .post:hover .btn {
-  background-color: #ff817e;
-  color: #fff;
+  /* background-color: #ff817e; */
+  color: #000000;
 }
 /*  ***************************** Procedures Section End *************/
 
@@ -632,7 +634,7 @@ section{
   margin-bottom: 30px;
 }
 .footer .foo-social a {
-  border-right: 1px solid #b1b4bb;
+  /* border-right: 1px solid #b1b4bb; */
   color: #e1e1e1;
   display: inline-block;
   font-size: 14px;
@@ -689,3 +691,4 @@ section{
   padding: 30px;
   overflow-y: hidden;
 } */
+
